@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MovieInfo • IMDB Ratings and all</title>
+</head>
+
+<body>
+  
+    <div class="welcome-container">
+        <h1 class="h1"><span class="sp2">🔎</span> Search for <span class="spann">MovieInfo</span></h1>
+        <button id="continue-btn">Continue</button>
+        <p class="api-note"> *Note: This website uses APIs from <span class="MANOJ>">TMDB</span> and <span class="MANOJ>">OMDB</span> • Designed & Developed by <SPAn class="MANOJ" href="manojbagale.com.np">Manoj Bagale </SPAn>using JS, CSS & HTML* </p>
+        <P class="api-note2"> ©️ All Rights Reserved. Made in 2023. <span class="MANOJ"> We love (the) Earth. </span>Let's love her.</P>
+    </div>
+    <div class="search-container hidden">
+        <input type="text" id="movie-search" placeholder="Search movies by title...">
+        <button id="search-btn">Search</button>
+        <div id="movie-details" class="hidden">
+            <h2>Movie Details</h2>
+            <div class="movie-info">
+                <img id="movie-poster" src="" alt="Movie Poster">
+                <div class="movie-text">
+                    <p><strong>Title:</strong> <span id="movie-title"></span></p>
+                    <p><strong>IMDb Rating:</strong> <span id="imdb-rating"></span></p>
+                    <p><strong>Release Date:</strong> <span id="release-date"></span></p>
+                    <p><strong>Director:</strong> <span id="director"></span></p>
+                    <div id="main-leads" class="main-leads"></div>
+                    <p><strong>Short Intro:</strong></p>
+                    <p id="short-intro"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>

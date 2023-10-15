@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Urbanist, sans-serif;
+    background-color: #07010e;
+  }
+  .sp2{
+    font-size: 40px
+  }
+  .welcome-container, .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: aliceblue;
+  }
+  
+  #movie-poster{
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: #FF9900;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  /* Add your button and input field styles here */
+  
+  #movie-details {
+    background-color: rgb(16, 5, 38);
+    padding: 40px;
+    width: 80%;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  #movie-poster {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .movie-text {
+    flex: 1;
+  }
+  
+  .main-leads {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .character {
+    flex: 0 0 33.33%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .character img {
+    max-width: 100%;
+  }
+
+
+/* Bubble effects */
+
+/* Update button style */
+#continue-btn, #search-btn {
+  padding: 20px 40px;
+  background-color: #e2b616; 
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 25px;
+}
+
+#search-btn{
+    margin-bottom: 20PX;
+}
+#continue-btn:hover, #search-btn:hover {
+  background-color: aliceblue;
+}
+
+/* Update search container style */
+.search-container {
+    background-color: #07010e;
+
+  padding: 50px 0;
+}
+#suggestions-list {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .api-note{
+    margin-top: 200px;
+    font-size: 12px;
+}.api-note2{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+
+/* Update input field style */
+#movie-search {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Add more styles for images and other elements as needed */
+.MANOJ{
+    color: #00ff99;
+}
+.h1{
+    font-size: 60px;
+}
+.spann{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: #00ff99 2px solid;
+}
